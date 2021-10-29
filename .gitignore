@@ -32,3 +32,6 @@
 
 #Ignore simplecov coverage directory.
 /coverage/
+
+#Ignore Gemfile lock to prevent weirdness in pipelines.
+Gemfile.lock
